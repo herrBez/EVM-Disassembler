@@ -1,4 +1,4 @@
-package main;
+package main.opcode;
 
 import java.io.ByteArrayInputStream;
 import java.util.ArrayList;

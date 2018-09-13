@@ -1,5 +1,5 @@
 package main;
 
-public interface Target {
-    String output(short[] array);
+public interface Target<T> {
+    T output(short[] array);
 }

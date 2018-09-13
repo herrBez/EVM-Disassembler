@@ -1,6 +1,9 @@
 package main;
 
-public class StringOutputTarget implements Target {
+import main.opcode.Code;
+import main.opcode.OpcodeTable;
+
+public class StringOutputTarget implements Target<String> {
     @Override
     public String output(short[] code) {
         StringBuilder output = new StringBuilder();

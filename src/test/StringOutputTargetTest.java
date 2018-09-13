@@ -1,13 +1,11 @@
 package test;
 
-import main.Parser;
+import main.opcode.Parser;
 import main.StringOutputTarget;
 import main.Target;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package main;
+package main.opcode;
 
 public enum Code {
     ERRCODE, //artificial OpcodeTable used to mark errors
